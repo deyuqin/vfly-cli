@@ -1,19 +1,25 @@
 {
-  "name": "@vfly/create-app",
-  "version": "1.0.0",
+  "name": "vfly-create",
+  "version": "1.0.5",
   "license": "MIT",
-  "description": "",
+  "description": "A quick scaffold for building vite@vue2",
   "main": "index.js",
   "bin": {
     "create-vue2-app": "index.js",
     "vfly": "index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "template-*"
   ],
-  "scripts": {
+  "engines": {
+    "node": ">=12.0.0"
   },
-  "keywords": [],
+  "keywords": [
+    "vite",
+    "vue",
+    "vue2"
+  ],
   "author": "qindeyu",
   "dependencies": {
     "enquirer": "^2.3.6",

@@ -26,6 +26,7 @@ async function init() {
     });
     targetDir = name;
   }
+
   const root = path.join(cwd, targetDir);
   console.log(`Scaffolding project in ${root}...`);
 
@@ -52,6 +53,22 @@ async function init() {
       }
     }
   }
+
+  // determine template
+  // let template = argv.t || argv.template;
+  // if (!template) {
+  //   /**
+  //    * @type {{ t: string }}
+  //    */
+  //   const { t } = await prompt({
+  //     type: "select",
+  //     name: "t",
+  //     message: `Select a template:`,
+  //     choices: ["vanilla", "vue", "vue-ts", "react", "react-ts"],
+  //   });
+  //   template = t;
+  // }
+
   const templateDir = path.join(__dirname, `template-vue2`);
 
   const write = (file, content) => {
@@ -108,6 +125,7 @@ function emptyDir(dir) {
   }
   for (const file of fs.readdirSync(dir)) {
     const abs = path.resolve(dir, file);
+    // baseline is Node 12 so can't use rmSync :(
     if (fs.lstatSync(abs).isDirectory()) {
       emptyDir(abs);
       fs.rmdirSync(abs);
