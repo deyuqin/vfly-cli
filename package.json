@@ -1,0 +1,22 @@
+{
+  "name": "@vfly/create-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-vue2-app": "index.js",
+    "cva": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "qindeyu",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "minimist": "^1.2.5"
+  }
+}
