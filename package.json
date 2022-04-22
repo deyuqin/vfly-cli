@@ -6,7 +6,7 @@
   "main": "index.js",
   "bin": {
     "create-vue2-app": "index.js",
-    "cva": "index.js"
+    "vfly": "index.js"
   },
   "files": [
     "index.js"
