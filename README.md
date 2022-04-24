@@ -45,3 +45,7 @@ Done. Now run:
   npm install (or `yarn`)
   npm run dev (or `yarn dev`)
 ```
+
+
+🐱 [github](https://github.com/deyuqin/vfly-cli)
+🎈 [npm](https://www.npmjs.com/package/vfly-create)
