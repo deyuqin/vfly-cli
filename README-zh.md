@@ -1,28 +1,28 @@
 # vfly-cli
-English|[中文](https://github.com/deyuqin/vfly-cli/blob/main/README-zh.md)
+[English](https://github.com/deyuqin/vfly-cli/blob/main/README.md)|中文
 ****
-⚡Quickly create vue2.x+vite applications without build configuration
-	- How to build with vfly-cli
+⚡快速创建没有构建配置的vue2.x+vite的应用程序
+	- 如何使用vfly-cli构建
 
-## Quick Build
-Quick builds with npm
+## 快速构建
+使用npm快速构建
 ```cmd
 npm install -g vfly-cli
 ```
 
-Go to the directory where you want to install, and execute vfly or create-vue2-app directly from the command line
+然后去想要安装的目录，命令行直接执行vfly或者create-vue2-app
 
 ```
 vfly（create-vue2-app）
 ```
 
-Enter the project name (default name vite@vue2-project)
+然后输入项目名(不输入默认vite@vue2-project)
 
 ```
 ? Project name: » my-project-name
 ```
 
-That's it.
+就可以了
 
 ```cmd
 Done. Now run:
@@ -33,9 +33,10 @@ Done. Now run:
 ```
 
 ****
-Quick builds with yarn
+使用yarn快速构建
 ```
 yarn add -g vfly-cli
+cd 目标目录
 vfly
 ? Project name: » my-project-name
 

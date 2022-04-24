@@ -1,6 +1,6 @@
 {
   "name": "vfly-create",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "license": "MIT",
   "description": "A quick scaffold for building vite@vue2",
   "main": "index.js",
@@ -10,7 +10,8 @@
   },
   "files": [
     "index.js",
-    "template-*"
+    "template-*",
+    "README.md"
   ],
   "engines": {
     "node": ">=12.0.0"
