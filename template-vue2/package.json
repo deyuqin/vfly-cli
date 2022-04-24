@@ -1,8 +1,9 @@
 {
   "name": "vite-vue2-x",
+  "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --host --open",
+    "dev": "vite --host",
     "build": "vite build"
   },
   "devDependencies": {
@@ -10,7 +11,7 @@
     "vite-plugin-vue2": "^1.9.3"
   },
   "dependencies": {
-    "vue": "2.1.6",
-    "vue-template-compiler": "^2.6.14"
+    "vue": "^2.x",
+    "vue-template-compiler": "^2.x"
   }
 }

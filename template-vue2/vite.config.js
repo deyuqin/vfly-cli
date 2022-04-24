@@ -1,5 +1,10 @@
+import { defineConfig } from "vite";
 import { createVuePlugin } from "vite-plugin-vue2";
 
-export default {
-  plugins: [createVuePlugin()],
-};
+export default () =>
+  defineConfig({
+    plugins: [createVuePlugin()],
+    server: {
+      open: true,
+    },
+  });
