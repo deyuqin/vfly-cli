@@ -1,13 +1,13 @@
-# vfly-cli
+# vfly-create
 English|[中文](https://github.com/deyuqin/vfly-cli/blob/main/README-zh.md)
 ****
 ⚡Quickly create vue2.x+vite applications without build configuration
-	- How to build with vfly-cli
+	- How to build with vfly-create
 
 ## Quick Build
 Quick builds with npm
 ```cmd
-npm install -g vfly-cli
+npm install -g vfly-create
 ```
 
 Go to the directory where you want to install, and execute vfly or create-vue2-app directly from the command line
@@ -35,7 +35,7 @@ Done. Now run:
 ****
 Quick builds with yarn
 ```
-yarn add -g vfly-cli
+yarn add -g vfly-create
 vfly
 ? Project name: » my-project-name
 

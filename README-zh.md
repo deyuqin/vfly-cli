@@ -1,13 +1,13 @@
-# vfly-cli
+# vfly-create
 [English](https://github.com/deyuqin/vfly-cli/blob/main/README.md)|中文
 ****
 ⚡快速创建没有构建配置的vue2.x+vite的应用程序
-	- 如何使用vfly-cli构建
+	- 如何使用vfly-create构建
 
 ## 快速构建
 使用npm快速构建
 ```cmd
-npm install -g vfly-cli
+npm install -g vfly-create
 ```
 
 然后去想要安装的目录，命令行直接执行vfly或者create-vue2-app
@@ -35,7 +35,7 @@ Done. Now run:
 ****
 使用yarn快速构建
 ```
-yarn add -g vfly-cli
+yarn add -g vfly-create
 cd 目标目录
 vfly
 ? Project name: » my-project-name
