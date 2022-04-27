@@ -1,6 +1,6 @@
 {
   "name": "vfly-create",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "license": "MIT",
   "description": "A quick scaffold for building vite@vue2",
   "main": "index.js",

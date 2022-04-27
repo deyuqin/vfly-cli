@@ -55,21 +55,21 @@ async function init() {
   }
 
   // determine template
-  // let template = argv.t || argv.template;
-  // if (!template) {
-  //   /**
-  //    * @type {{ t: string }}
-  //    */
-  //   const { t } = await prompt({
-  //     type: "select",
-  //     name: "t",
-  //     message: `Select a template:`,
-  //     choices: ["vanilla", "vue", "vue-ts", "react", "react-ts"],
-  //   });
-  //   template = t;
-  // }
+  let template = argv.t || argv.template;
+  if (!template) {
+    /**
+     * @type {{ t: string }}
+     */
+    const { t } = await prompt({
+      type: "select",
+      name: "t",
+      message: `Select a template:`,
+      choices: ["router", "router-pinia", "router-vuex"],
+    });
+    template = t;
+  }
 
-  const templateDir = path.join(__dirname, `template-vue2`);
+  const templateDir = path.join(__dirname, `template-${template}`);
 
   const write = (file, content) => {
     const targetPath = renameFiles[file]
